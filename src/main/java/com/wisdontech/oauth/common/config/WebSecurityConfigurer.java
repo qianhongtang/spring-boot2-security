@@ -35,7 +35,7 @@ public class WebSecurityConfigurer extends WebSecurityConfigurerAdapter {
 		http// 设置不需要鉴权的目录
 				.authorizeRequests()
 				// 允许访问
-				.antMatchers("/", "/oauth/**").permitAll()
+				.antMatchers("/oauth/**").permitAll()
 				// swagger
 				.antMatchers("/swagger-ui.html", "/swagger-resources", "/swagger-resources/**", "/v2/api-docs",
 						"/webjars/**")
