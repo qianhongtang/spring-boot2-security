@@ -23,7 +23,7 @@ public class SwaggerConfiguration {
 	@Bean
 	public Docket createRestApi() {
 		return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
-				.apis(RequestHandlerSelectors.basePackage("com.wisdontech")).paths(PathSelectors.any()).build();
+				.apis(RequestHandlerSelectors.basePackage("com.tangqh")).paths(PathSelectors.any()).build();
 	}
 
 	private ApiInfo apiInfo() {

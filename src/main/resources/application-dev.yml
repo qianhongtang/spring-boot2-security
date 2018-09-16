@@ -1,8 +1,5 @@
 server:
-  port: 8081
-  session-timeout: 30
-  tomcat.max-threads: 100
-  tomcat.uri-encoding: UTF-8
+  port: 8080
 spring:
   devtools:
     livereload:
@@ -11,11 +8,6 @@ spring:
     view:
       prefix: /WEB-INF/views/
       suffix: .jsp
-  security:
-    user:
-      name: user
-      password: 123456
-      roles: USER,ADMIN
   datasource:
     url: jdbc:mysql://10.168.1.140:4307/oauth_server
     username: billing
@@ -50,7 +42,7 @@ spring:
         max-wait: 2000
 management:
   server:
-    port: 8000
+    port: 8001
   endpoints:
     web:
       base-path: /manage

@@ -1,4 +1,4 @@
-package com.wisdontech.oauth;
+package com.tangqh.oauth;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
