@@ -42,7 +42,7 @@ spring:
         max-wait: 2000
 management:
   server:
-    port: 8001
+    port: 10000
   endpoints:
     web:
       base-path: /manage
